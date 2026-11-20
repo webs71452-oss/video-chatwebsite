@@ -4,51 +4,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Download Information - Video Chat</title>
+  <title>Download Video Chat APK</title>
+
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       padding: 20px;
       font-family: Arial, sans-serif;
-      background: #f4f7fb;
+      background: #f1f5fb;
       color: #222;
-      line-height: 1.7;
-    }
-    main {
-      max-width: 700px;
-      margin: 35px auto;
-      padding: 25px;
-      background: white;
-      border-radius: 12px;
       text-align: center;
     }
-    h1 { color: #174ea6; }
-    a { color: #174ea6; }
+
+    .container {
+      max-width: 500px;
+      margin: 60px auto;
+      background: white;
+      padding: 30px 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px #00000015;
+    }
+
+    h1 {
+      color: #174ea6;
+    }
+
+    .download-btn {
+      display: inline-block;
+      margin: 20px 0;
+      padding: 15px 30px;
+      background: #174ea6;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    .download-btn:hover {
+      background: #0d3678;
+    }
+
+    a.home {
+      display: block;
+      margin-top: 20px;
+      color: #174ea6;
+    }
+
+    .note {
+      color: #666;
+      font-size: 14px;
+    }
   </style>
 </head>
+
 <body>
-  <main>
+
+  <div class="container">
+
     <h1>Video Chat</h1>
-    <h2>App Download Information</h2>
 
-    <p>
-      Welcome to the Video Chat app information page.
-    </p>
+    <h2>Download APK</h2>
 
-    <p>
-      Please check the app's age requirements,
-      privacy policy, and safety information before use.
-    </p>
+    <p>Download the Video Chat application.</p>
 
-    <p><strong>Age Restriction: 18+</strong></p>
+    <a class="download-btn"
+       href="./Viral%20Video.apk"
+       download="Viral Video.apk">
+       Download APK
+    </a>
 
-    <p>
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
+    <p class="note">APK file: Viral Video.apk</p>
 
-    <p>
-      <a href="index.html">Back to Home</a>
-    </p>
-  </main>
+    <a class="home" href="index.html">
+      Back to Home
+    </a>
+
+  </div>
+
 </body>
 </html>
